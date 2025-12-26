@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.env
+.mypy_cache
+
+agent-bddc9-firebase-adminsdk-fbsvc-4e5b5fd072.json
