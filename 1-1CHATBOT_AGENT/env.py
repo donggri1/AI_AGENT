@@ -11,7 +11,6 @@ def get_env_variable(key:str)->str:
     return value
 
 TELEGRAM_BOT_TOKEN = get_env_variable("TELEGRAM_BOT_TOKEN")
-TELEGRAM_TOKEN = get_env_variable("TELEGRAM_BOT_TOKEN")
 GEMINI_API_KEY = get_env_variable("GEMINI_API_KEY")
 FIRECRAWL_API_KEY = get_env_variable("FIRECRAWL_API_KEY")
 NAVER_API_CLIENT_ID = get_env_variable("NAVER_API_CLIENT_ID")

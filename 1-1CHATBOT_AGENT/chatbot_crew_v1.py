@@ -4,37 +4,16 @@ from crewai import Crew,Agent,Task
 from crewai.project import CrewBase,task,agent,crew
 from tools import web_search_tool,naver_search_tool,google_search_tool
 from env import GEMINI_API_KEY
+from db import get_conversation_context
 
 os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
 
-history = [] # 대화 기록 저장용 리스트
-
-def add_to_conversation(user_message:str , bot_response:str):
-    history.append(
-        {
-        "user": user_message,
-        "bot": bot_response,
-        "timestamp": str(len(history) + 1)
-       }
-    )
-
-    if len(history) > 10 :
-        history.pop(0)  # 가장 오래된 대화 기록 삭제
-
-def get_conversation_context():
-    if not history:
-        return "이전 대화 없음"
-    context = "=== 최근 대화 기록 ===\n"
-    for i,chat in enumerate(history,1):
-        context += f"{i}, 사용자 : {chat['user']}\n"
-        context += f"     봇 : {chat['bot']}\n"
-    return context
 
 @CrewBase
 class ChatBotCrew:
 
-
     def create_agent(self) -> Agent:
+
         return Agent(
             role="전문 소통 분석가",
             goal="사용자의 질문을 심층적으로 분석하고, 가장 정확하고 유용한 정보를 찾아내어 전달한다.",
