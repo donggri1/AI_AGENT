@@ -7,8 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "crewai[tools]==0.177.0",
     "dotenv>=0.9.9",
-    "python-telegram-bot[job-queue]==22.3",
+    "python-telegram-bot>=22.3",
     "firecrawl-py==3.4.0",
-    "feedparser==6.0.11",
-    "pytz>=2025.2",
+    "yfinance==0.2.65",
 ]

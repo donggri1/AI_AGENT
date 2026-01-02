@@ -1,0 +1,49 @@
+{
+  "portfolio_manager_recommendation": {
+    "user_profile": {
+      "investment_goal": "AI 같은 첨단 기술주에 투자",
+      "investment_style": "공격적",
+      "investment_budget": 20000,
+      "strategy": "growth"
+    },
+    "selected_stocks": [
+      {
+        "ticker": "NVDA",
+        "company": "NVIDIA Corporation",
+        "growth_score": 10.0,
+        "allocation": 0.40,
+        "amount": 8000.00,
+        "investment_rationale": "AI 혁명의 핵심 동력으로, AI 반도체 시장의 독보적인 리더십과 CUDA 생태계를 기반으로 폭발적인 성장이 기대됩니다. 공격적인 투자 성향에 가장 부합하는 첨단 기술주로서, AI 산업 전반의 고도화에 따른 최전선에서 높은 수익률을 추구합니다."
+      },
+      {
+        "ticker": "MSFT",
+        "company": "Microsoft Corporation",
+        "growth_score": 8.4,
+        "allocation": 0.25,
+        "amount": 5000.00,
+        "investment_rationale": "클라우드(Azure)와 AI(Copilot) 분야의 강력한 시너지를 통해 안정적인 수익 기반 위에 혁신적인 성장을 더하고 있습니다. 광범위한 산업 영향력과 AI 기술 통합으로 안정성과 함께 첨단 기술의 확산을 통한 중장기적인 가치 상승을 기대합니다."
+      },
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike Holdings, Inc.",
+        "growth_score": 8.7,
+        "allocation": 0.20,
+        "amount": 4000.00,
+        "investment_rationale": "디지털 전환 가속화와 AI 기술 확산에 따른 사이버 위협 증가는 필수적인 보안 솔루션 수요를 높이고 있습니다. 클라우드 네이티브 EDR 시장의 선두 주자로서 AI 기반 위협 인텔리전스를 통해 높은 시장 성장률과 점유율 확대를 동시에 추구할 수 있는 공격적인 투자처입니다."
+      },
+      {
+        "ticker": "META",
+        "company": "Meta Platforms, Inc.",
+        "growth_score": 8.5,
+        "allocation": 0.15,
+        "amount": 3000.00,
+        "investment_rationale": "핵심 광고 사업의 견조한 성장을 기반으로, 메타버스 및 공간 컴퓨팅(AR/VR) 분야에 대한 과감한 투자를 통해 미래 플랫폼을 선도하려는 비전을 가지고 있습니다. 고위험-고수익 잠재력을 가진 첨단 기술 분야에 공격적으로 투자하여 장기적인 관점에서 혁신적인 가치 창출을 기대합니다."
+      }
+    ],
+    "portfolio_summary": {
+      "total_budget_allocated": 20000.00,
+      "total_allocation_percentage": 1.0,
+      "risk_management_notes": "사용자의 '공격적' 투자 성향과 'AI 같은 첨단 기술주' 목표에 맞춰 고성장 잠재력을 가진 기업들에 집중 투자하였습니다. NVIDIA에 대한 높은 비중은 AI 시장의 지배적 위치를 고려한 것이며, 단일 종목 최대 50% 제한을 준수하여 위험을 분산하였습니다. AI 반도체, 클라우드/소프트웨어, 사이버보안, 공간 컴퓨팅 등 다양한 첨단 기술 분야에 분산하여 시장 변동성에 대한 노출을 관리합니다."
+    }
+  }
+}
